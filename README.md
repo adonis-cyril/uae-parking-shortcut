@@ -268,7 +268,7 @@ You can paste this:
 
 ```text
 I want to set up this Apple Shortcut repo:
-https://github.com/OWNER/REPO
+https://github.com/adonis-cyril/uae-parking-shortcut
 
 Please help me:
 1. Check the README.
