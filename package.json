@@ -1,0 +1,24 @@
+{
+  "name": "uae-parking-shortcut",
+  "version": "1.0.0",
+  "description": "Build an Apple Shortcuts file for UAE parking SMS payments.",
+  "main": "scripts/build-shortcut.js",
+  "scripts": {
+    "build": "node scripts/build-shortcut.js",
+    "check": "npm run build && node scripts/check-private-data.js"
+  },
+  "keywords": [
+    "shortcuts",
+    "apple-shortcuts",
+    "parking",
+    "uae",
+    "sms"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "plist": "^5.0.0"
+  },
+  "devDependencies": {}
+}
