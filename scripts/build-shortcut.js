@@ -1,6 +1,5 @@
 const fs = require('fs');
 const path = require('path');
-const { randomUUID } = require('crypto');
 
 const outputDir = path.resolve(__dirname, '..', 'dist');
 const unsignedPath = path.join(outputDir, 'UAE Parking SMS.unsigned.shortcut');
@@ -10,11 +9,11 @@ const defaultPlate = 'ABC123';
 const defaultSmsNumber = '7275';
 const defaultContactName = 'Dubai Parking';
 
-const contactUUID = randomUUID().toUpperCase();
-const plateUUID = randomUUID().toUpperCase();
-const zoneUUID = randomUUID().toUpperCase();
-const hoursUUID = randomUUID().toUpperCase();
-const sendUUID = randomUUID().toUpperCase();
+const plateUUID = '11111111-1111-4111-8111-111111111111';
+const contactUUID = '22222222-2222-4222-8222-222222222222';
+const zoneUUID = '33333333-3333-4333-8333-333333333333';
+const hoursUUID = '44444444-4444-4444-8444-444444444444';
+const sendUUID = '55555555-5555-4555-8555-555555555555';
 
 function variableAttachment(uuid, name) {
   return {
